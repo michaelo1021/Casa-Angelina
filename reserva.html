@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reserva-Casa Angelina Hotel & Resort</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="reserva.css"  media="screen" />
+  <link rel="stylesheet" href="print.css" media="print" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:200,300,400,500,600,700,900" rel="stylesheet">
+  <!-- aplicando una libreria -->
+  <link rel="stylesheet" href="aos.css"  media="screen"/>
+<body>
+
+  <nav>
+    <div class="wrapper">
+     <ul>
+       <li><a href="index.html" class="logo"><img src="images/logo-small.png"></a></li>
+       <li><a href="index.html" class="link">Home</a></li>
+       <li><a href="reserva.html" class="home link">Reserva</a></li>
+       <li><a href="rooms.html" class="link">Rooms</a></li>
+       <li><a href="restaurant.html" class="link">Restaurant</a></li>
+       <li><a href="contact.html" class="link">Contact</a></li>
+       <div class="dropdown">
+         <li><a href="#" class="burger dropdownbtn"><img src="images/burguer.png" alt="burger"></a></li>
+         <div class="dropdown-content" style="left:0;">
+           <a href="index.html">Home</a>
+           <a href="reserva.html">Reserva</a>
+           <a href="rooms.html">Rooms</a>
+           <a href="restaurant.html">Restaurant</a>
+           <a href="contact.html">Contact</a>
+         </div>
+       </div>
+     </ul>
+   </div>
+</nav>
+
+<section id="reserva"  data-aos="zoom-in" data-aos-duration="700">
+  <div class="wrapper">
+    <img src="images/profile.png" alt="" class="people">
+    <form>
+      <input type="text" name="people" placeholder="2 People">
+    </form>
+      <img src="images/calendar.png" alt="">
+      <form>
+      <input type="date" name="entrada" required>
+      </form>
+      <img src="images/calendar.png" alt="">
+      <form>
+      <input type="date" name="entrada" required>
+      <form>
+      <button type="submit" value="reservar">EDITAR</button>
+    </div>
+</section>
+
+<section id="form1">
+  <div class="wrapper2">
+    <h3>Datos de la reserva</h3>
+    <form class="personales" action="" method="">
+      <input type="text" name="nombre" placeholder="Nombre" required><br>
+      <input type="text" name="apellidos" placeholder="Apellidos" required><br>
+      <input type="email" name="email" placeholder="Email" required><br>
+      <input type="number" name="telefono" placeholder="Teléfono" required><br>
+      <input type="text" name="empresa" placeholder="Empresa (opcional)"><br>
+    </form>
+  </div>
+</section>
+
+<section id="form2">
+  <div class="wrapper2">
+    <div class="credit">
+      <h3>Tarjeta de crédito</h3>
+      <img src="images/credit.png" alt="">
+    </div>
+    <h4>La cargaremos en algún momento antes de la llegada</h4>
+    <form class="card" action="" method="">
+      <input type="number" name="tarjeta" placeholder="Número de tarjeta" required><br>
+      <input type="text" name="titular" placeholder="Nombre del titular" required><br>
+      <input type="number" name="caducidad" placeholder="Caducidad" required><br>
+    </form>
+  </div>
+</section>
+
+<section id="form3">
+  <div class="wrapper2">
+    <h3>Comentarios</h3>
+    <form class="comentario" action="" method="">
+      <textarea name="comentarios" rows="8" cols="80" placeholder="Intentaremos atender a sus peticiones..."></textarea><br>
+       <input type="checkbox" name="ofertas"><span class="box1">Quiero recibir futuras ofertas de éste establecimiento</span><br>
+       <input type="checkbox" name="aceptar"><span class="box1">Acepto la política de cancelación/pago, política de privacidad</span>
+    </form>
+    <button type="submit" value="pago">Proceder al pago</button>
+  </div>
+</section>
+
+<section id="footer">
+  <div class="wrapper">
+    <div class="logo-footer">
+      <img src="images/logo-footer.png" alt="">
+    </div>
+    <div class="list-footer">
+      <ul>
+        <li>
+          <a href="#"> Casa Angelina 2019</a>
+          <a href="#">Privacy Polity</a>
+          <a href="#">Term of Use</a>
+          <a href="#">Contact</a>
+       </li>
+      </ul>
+    </div>
+    <div class="rrss-footer">
+      <img src="images/rrss.png" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- aplicando una libreria -->
+<script src="aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+
+</body>
+</html>

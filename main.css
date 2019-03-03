@@ -1,0 +1,564 @@
+body {
+  background: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.burger {
+  display: none;
+}
+
+/* dorpdown */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 12px 16px;
+  color: white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.dropdown-content a:hover {
+  color: #AEFCFF;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* dorpdown */
+
+/* nav */
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: none;
+  margin-top: -17px;
+}
+
+nav ul {
+  display: flex;
+
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 26px 20px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+nav li a:hover {
+  color: #AEFCFF;
+}
+
+
+/* nav */
+
+/* logo */
+
+li:first-child {
+	margin-right: auto;
+  margin-left: -45px;
+  margin-top: -30px;
+}
+
+/* logo */
+
+/* header*/
+
+#header {
+  background: url("images/superportada.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  overflow: auto;
+}
+
+#header h1 {
+  font-size: 3.75rem;
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding-top: 210px;
+  line-height: 1.1;
+}
+
+#header .reserva-header {
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 400;
+  padding: 10px 40px;
+  background:  linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  text-decoration: none;
+  box-shadow: 0 12px 20px -10px rgba(0, 0, 0, 0.2);
+  width: 55px;
+  margin: 0 auto;
+  display: none;
+  text-align: center;
+}
+
+#header .reserva-header:hover {
+background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+/* header*/
+
+/* reserva*/
+
+#reserva {
+  height: 70px;
+  width: 850px;
+  margin: -35px auto 0 auto;
+  background-color: white;
+  box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.2);
+}
+
+#reserva .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#reserva img {
+  width: 24px;
+  height: 24px;
+}
+
+.people {
+  width: 25px;
+  height: 24px;
+  margin-left: 40px;
+}
+
+input[type=text] {
+  border: none;
+  width: 80%;
+  padding-left: 10px;
+}
+
+input[type=date] {
+  border: none;
+  margin-right: 20px;
+  padding-left: 10px;
+  color: gray;
+}
+
+button {
+ width: 210px;
+ height: 70px;
+ margin-right: -1px;
+  border: none;
+  background: linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+/* reserva */
+
+/* suites */
+
+#suites {
+  margin-top: 6.5%;
+}
+
+#suites .wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+#suites img {
+  width: 582px;
+  height: 508px;
+}
+
+.texto-suites {
+  margin-top:  20px;
+}
+
+.texto-suites h5 {
+color: #59A8F4;
+font-size: 1rem;
+margin-top: 0;
+margin-bottom: 0.7rem;
+font-weight: 400;
+}
+
+.texto-suites h2 {
+  color: #3D3D3D;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Noto Serif SC', serif;
+}
+
+.texto-suites p {
+  color: #7E7E7E;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.texto-suites a {
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 400;
+  padding: 10px 40px;
+  background:  linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  text-decoration: none;
+  box-shadow: 0 12px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+.texto-suites a:hover {
+background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+/* suites */
+
+/* comentarios */
+
+#comentarios {
+  background: url("images/comentarios-bg.png") no-repeat;
+  background-size: cover;
+  height: 34em;
+  overflow: auto;
+  margin-top: 50px;
+}
+
+#comentarios .wrapper {
+  display: flex;
+    justify-content: space-between;
+}
+
+.comentario1 {
+  margin-top: 15%;
+}
+
+.comentario1 img {
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 119px;
+  height: 119px;
+}
+
+.comentario1 h3 {
+font-size: 1.5rem;
+color: white;
+font-weight: 500;
+text-align: center;
+margin-top: 0;
+margin-bottom: 1rem;
+}
+
+.comentario1 p {
+width: 313px;
+text-align: center;
+color: white;
+font-size: 1rem;
+line-height: 1.5;
+margin: 0 auto;
+}
+
+.puntos {
+  width: 199px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+/* comentarios */
+
+/* restaurant */
+
+#restaurant h5 {
+color: #59A8F4;
+font-size: 1rem;
+margin-top: 6rem;
+margin-bottom: 0.7rem;
+font-weight: 400;
+text-align: center;
+}
+
+#restaurant h2 {
+  color: #3D3D3D;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Noto Serif SC', serif;
+  text-align: center;
+}
+
+#restaurant p {
+  color: #7E7E7E;
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#restaurant a {
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 400;
+  padding: 10px 40px 8px 40px;
+  background:  linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 70px;
+  text-align: center;
+  box-shadow: 0 12px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+#restaurant a:hover {
+  background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+#restaurant img {
+  margin-top: 5.5%;
+  width: 100%;
+}
+
+/* restaurant */
+
+/* footer */
+
+#footer {
+  height: 100px;
+}
+
+#footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .logo-footer {
+  margin-top: 2.7%;
+}
+
+#footer .list-footer {
+  margin-top: 5.2%;
+}
+
+#footer .rrss-footer {
+  margin-top: 3.4%;
+}
+
+#footer .list-footer li {
+    list-style: none;
+}
+
+#footer .list-footer li a {
+	color: #7E7E7E;
+	text-decoration: none;
+	padding: 0 20px;
+}
+
+/* footer */
+
+/* Comenzamos con el @media
+1060px*/
+
+@media only screen and (max-width: 1060px){
+
+  .wrapper {
+    width: 90%;
+  }
+
+  #reserva {
+    display: none;
+  }
+
+  #header .reserva-header {
+    display: block;
+  }
+
+  .comentario1 p {
+  width: 280px;
+  }
+
+  #footer .logo-footer {
+    display: none;
+  }
+
+  #footer .rrss-footer {
+    display: none;
+  }
+
+  #footer .wrapper {
+    display: block;
+  }
+
+  #footer .list-footer li {
+      text-align: center;
+      margin-top: 1px;
+  }
+
+  #footer {
+    height: 10%;
+  }
+}
+
+/* Comenzamos con el @media
+1060px*/
+
+/* @media 1000px*/
+
+@media only screen and (max-width: 1000px){
+
+  #suites .wrapper {
+    flex-direction: column;
+  }
+
+  .texto-suites h5 {
+  text-align: center;
+  }
+
+  .texto-suites h2 {
+    text-align: center;
+  }
+
+  .texto-suites p {
+    text-align: center;
+  }
+
+  .texto-suites a {
+    width: 55px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  #suites img {
+    margin: 13% auto 0 auto;
+    width: 90%;
+    height: auto;
+  }
+
+  #comentarios .wrapper {
+    flex-direction: column;
+  }
+
+  #comentarios {
+    height: 1180px;
+  }
+
+  .comentario1 {
+    margin-top: 70px;
+  }
+
+  #restaurant h5 {
+  margin-top: 4rem;
+  }
+
+  .casa {
+    display: none;
+  }
+
+  #header {
+    width: 100%;
+    height: auto;
+  }
+
+  #header h1 {
+    padding-top: 10%;
+  }
+
+  #header .reserva-header {
+    margin-bottom: 10%;
+  }
+
+  .logo-nav {
+    width: 150px;
+    height: auto;
+  }
+
+}
+
+/* @media 1000px*/
+
+/* @media 735px*/
+
+@media only screen and (max-width: 735px){
+
+  #restaurant h5 {
+  margin-top: 3rem;
+  }
+
+  #restaurant h2 {
+  line-height: 1.1;
+  }
+
+  #restaurant a {
+  margin-bottom: 1rem;
+  }
+
+  .logo-nav {
+    width: 50%;
+  }
+
+  .burger {
+    width: 30px;
+    height: auto;
+    display: block;
+    padding-right: 10px;
+    padding-top: 60px;
+  }
+
+  .link {
+    display: none;
+  }
+
+  #header h1 {
+    padding-top: 5%;
+  }
+
+  #header .reserva-header {
+    margin-bottom: 13%;
+  }
+
+}
+
+/* @media 735px*/

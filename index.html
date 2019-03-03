@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Casa Angelina Hotel & Resort</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="main.css"  media="screen" />
+    <link rel="stylesheet" href="print.css" media="print" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:200,300,400,500,600,700,900" rel="stylesheet">
+  <!-- aplicando una libreria -->
+  <link rel="stylesheet" href="aos.css"  media="screen"/>
+<body>
+
+
+
+<section id="header">
+  <div class="wrapper">
+    <nav>
+       <ul>
+         <li><a href="index.html" class="logo"><img src="images/LOGO.png" alt="" class="logo-nav"></a></li>
+         <li><a href="index.html" class="home link">Home</a></li>
+         <li><a href="reserva.html" class="link">Reserva</a></li>
+         <li><a href="rooms.html" class="link">Rooms</a></li>
+         <li><a href="restaurant.html" class="link">Restaurant</a></li>
+         <li><a href="contact.html" class="link">Contact</a></li>
+         <div class="dropdown">
+           <li><a href="#" class="burger dropdownbtn"><img src="images/burguer.png" alt="burger"></a></li>
+           <div class="dropdown-content" style="left:0;">
+             <a href="index.html">Home</a>
+             <a href="reserva.html">Reserva</a>
+             <a href="rooms.html">Rooms</a>
+             <a href="restaurant.html">Restaurant</a>
+             <a href="contact.html">Contact</a>
+           </div>
+         </div>
+       </ul>
+  </nav>
+    <h1 data-aos="fade-up" data-aos-duration="700">Welcome to Paradise</h1>
+    <a href="reserva.html" class="reserva-header">Reservar</a>
+  </div>
+</section>
+
+<section id="reserva" data-aos="zoom-in" data-aos-duration="600">
+  <div class="wrapper">
+    <img src="images/profile.png" alt="" class="people">
+    <form>
+      <input type="text" name="people" placeholder="2 People">
+    </form>
+      <img src="images/calendar.png" alt="">
+      <form>
+      <input type="date" name="entrada" required>
+      </form>
+      <img src="images/calendar.png" alt="">
+      <form>
+      <input type="date" name="entrada" required>
+    </form>
+      <a href="reserva.html"><button type="submit" value="reservar">RESERVAR</button></a>
+    </div>
+</section>
+
+
+<section id="suites">
+  <div class="wrapper">
+    <div class="texto-suites" data-aos="fade-right" data-aos-duration="700">
+      <h5>R O O M S</h5>
+      <h2>Luxury Suites</h2>
+      <p>Discover Santorinis most exclusive honeymoon suites</p>
+      <a href="rooms.html">Ver más</a>
+    </div>
+    <img src="images/suites.png" alt=""  data-aos="zoom-in" data-aos-duration="800">
+  </div>
+</section>
+
+<section id="comentarios">
+  <div class="wrapper">
+    <div class="comentario1">
+      <img src="images/perfil1.png" alt="" data-aos="zoom-in" data-aos-duration="800">
+      <h3>Karsten Smith</h3>
+      <p>"Hard to believe a hotel in Santorini could do better than Lava Caves. Katerina was spectacular in all respects." </p>
+    </div>
+    <div class="comentario1">
+      <img src="images/perfil2.png" alt="" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
+      <h3>Joseph Mbumbu</h3>
+      <p>"Hard to believe a hotel in Santorini could do better than Lava Caves. Katerina was spectacular in all respects." </p>
+    </div>
+    <div class="comentario1">
+      <img src="images/perfil3.png" alt="" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="600">
+      <h3>Maria Lopez</h3>
+      <p>"Hard to believe a hotel in Santorini could do better than Lava Caves. Katerina was spectacular in all respects." </p>
+    </div>
+  </div>
+  <img src="images/puntos.png" alt="" class="puntos">
+</section>
+
+<section id="restaurant">
+  <div class="wrapper"  data-aos="fade-down" data-aos-duration="700">
+    <h5>R E S T A U R A N T</h5>
+    <h2>Ultra Regional Dishes</h2>
+    <p>That embody the cooking traditions and customs of the region</p>
+    <a href="restaurant.html">Ver más</a>
+  </div>
+  <img src="images/chef.png" alt="">
+</section>
+
+<section id="footer">
+  <div class="wrapper">
+    <div class="logo-footer">
+      <img src="images/logo-footer.png" alt="">
+    </div>
+    <div class="list-footer">
+      <ul>
+        <li>
+          <a href="#" class="casa"> Casa Angelina 2019</a>
+          <a href="#">Privacy Polity</a>
+          <a href="#">Term of Use</a>
+          <a href="contact.html">Contact</a>
+       </li>
+      </ul>
+    </div>
+    <div class="rrss-footer">
+      <img src="images/rrss.png" alt="">
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- aplicando una libreria -->
+<script src="aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+
+</body>
+</html>

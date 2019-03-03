@@ -1,0 +1,569 @@
+body {
+  background: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.burger {
+  display: none;
+}
+
+/* dorpdown */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 12px 16px;
+  color: white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.dropdown-content a:hover {
+  color: #AEFCFF;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* dorpdown */
+
+/* nav */
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: none;
+  margin-top: -17px;
+}
+
+nav ul {
+  display: flex;
+
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 26px 20px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+nav li a:hover {
+  color: #AEFCFF;
+}
+
+/* nav */
+
+/* logo */
+
+li:first-child {
+	margin-right: auto;
+  margin-left: -45px;
+  margin-top: -30px;
+}
+
+/* logo */
+
+/* header*/
+
+#header {
+  background: url("images/rooms1.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  overflow: auto;
+}
+
+#header h1 {
+  font-size: 3.75rem;
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding-top: 210px;
+}
+
+#header .reserva-header {
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 400;
+  padding: 10px 40px;
+  background:  linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  text-decoration: none;
+  box-shadow: 0 12px 20px -10px rgba(0, 0, 0, 0.2);
+  width: 55px;
+  margin: 0 auto;
+  display: none;
+  text-align: center;
+}
+
+#header .reserva-header:hover {
+background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+/* header*/
+
+/* reserva*/
+
+#reserva {
+  height: 70px;
+  width: 850px;
+  margin: -35px auto 0 auto;
+  background-color: white;
+  box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.2);
+}
+
+#reserva .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#reserva img {
+  width: 24px;
+  height: 24px;
+}
+
+.people {
+  width: 25px;
+  height: 24px;
+  margin-left: 40px;
+}
+
+input[type=text] {
+  border: none;
+  width: 80%;
+  padding-left: 10px;
+}
+
+input[type=date] {
+  border: none;
+  margin-right: 20px;
+  padding-left: 10px;
+  color: gray;
+}
+
+button {
+ width: 210px;
+ height: 70px;
+ margin-right: -1px;
+  border: none;
+  background: linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+/* reserva */
+
+/* texto */
+
+#texto {
+  margin-top: 6.5%;
+}
+
+#texto h2 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #3D3D3D;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+#texto p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #7E7E7E;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  width: 500px;
+}
+
+/* texto */
+
+/* texto2 */
+
+#texto2 {
+  margin-top: 6.5%;
+}
+
+#texto2 h2 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #3D3D3D;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+#texto2 p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #7E7E7E;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  width: 500px;
+}
+
+/* texto2 */
+
+/* caja */
+
+#caja {
+  margin-top: 5%;
+}
+
+#caja .tarjeta {
+  width: 567px;
+  height: 633px;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+#caja .tarjeta h6 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 2.2em;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #3D3D3D;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#caja .tarjeta h5 {
+  font-size: 2.2em;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #3D3D3D;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+
+#caja .tarjeta p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #7E7E7E;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#caja .book {
+  width: 567px;
+  height: 49px;
+  background: linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);;
+  color: white;
+  text-align: center;
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#caja .book:hover {
+  background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+#caja .tarjeta2 {
+  width: 567px;
+  height: 633px;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 6rem auto 0 auto;
+}
+
+#caja .tarjeta2 h6 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 2.2em;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #3D3D3D;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#caja .tarjeta2 h5 {
+  font-size: 2.2em;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #3D3D3D;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  text-align: center;
+}
+
+#caja .tarjeta2 p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #7E7E7E;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  width: 480px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* caja */
+
+/* footer */
+
+#footer {
+  height: 100px;
+  margin-top:  3rem;
+}
+
+#footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .logo-footer {
+  margin-top: 2.7%;
+}
+
+#footer .list-footer {
+  margin-top: 5.2%;
+}
+
+#footer .rrss-footer {
+  margin-top: 3.4%;
+}
+
+#footer .list-footer li {
+    list-style: none;
+}
+
+#footer .list-footer li a {
+	color: #7E7E7E;
+	text-decoration: none;
+	padding: 0 20px;
+}
+
+/* footer */
+
+/* Comenzamos con el @media
+1060px*/
+
+@media only screen and (max-width: 1060px){
+
+  .wrapper {
+    width: 90%;
+  }
+
+  #reserva {
+    display: none;
+  }
+
+  #header .reserva-header {
+    display: block;
+  }
+
+  #footer .logo-footer {
+    display: none;
+  }
+
+  #footer .rrss-footer {
+    display: none;
+  }
+
+  #footer .wrapper {
+    display: block;
+  }
+
+  #footer .list-footer li {
+      text-align: center;
+      margin-top: 1px;
+  }
+
+  #footer {
+    height: 10%;
+  }
+
+}
+
+/* Comenzamos con el @media
+1060px*/
+
+/* @media 1000px*/
+
+@media only screen and (max-width: 1000px){
+
+  .casa {
+    display: none;
+  }
+
+  #header {
+    width: 100%;
+    height: auto;
+  }
+
+  #header h1 {
+    padding-top: 10%;
+  }
+
+  #header .reserva-header {
+    margin-bottom: 10%;
+  }
+
+  .logo-nav {
+    width: 150px;
+    height: auto;
+  }
+
+}
+
+/* @media 1000px*/
+
+/* @media 735px*/
+
+@media only screen and (max-width: 735px){
+
+  .logo-nav {
+    width: 50%;
+  }
+
+  .burger {
+    width: 30px;
+    height: auto;
+    display: block;
+    padding-right: 10px;
+    padding-top: 60px;
+  }
+
+  .link {
+    display: none;
+  }
+
+  #header h1 {
+    padding-top: 5%;
+  }
+
+  #header .reserva-header {
+    margin-bottom: 13%;
+  }
+
+  #caja .tarjeta {
+    width: 284px;
+    height: 317px;
+
+  }
+
+  #caja .tarjeta h6 {
+    font-size: 1.2em;
+  }
+
+  #caja .tarjeta h5 {
+    font-size: 1.2em;
+  }
+
+  #caja .tarjeta p {
+    display: none;
+  }
+
+  #caja .book {
+    width: 284px;
+  }
+
+  #caja .tarjeta2 {
+    width: 284px;
+    height: 317px;
+
+  }
+
+  #caja .tarjeta2 h6 {
+    font-size: 1.2em;
+  }
+
+  #caja .tarjeta2 h5 {
+    font-size: 1.2em;
+  }
+
+  #caja .tarjeta2 p {
+    display: none;
+  }
+
+  #caja img {
+    width: 284px;
+    height: 171px;
+  }
+
+  #texto {
+    margin-bottom: 70px;
+  }
+
+  #texto2 {
+    margin-top: 110px;
+    margin-bottom: 70px;
+  }
+
+  #texto p {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  #texto2 p {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  #texto2 h2 {
+    margin-bottom: 2rem;
+  }
+
+  #texto h2 {
+    margin-bottom: 2rem;
+  }
+
+}
+
+/* @media 735px*/

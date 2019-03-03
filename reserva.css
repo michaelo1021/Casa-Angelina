@@ -1,0 +1,422 @@
+body {
+  background: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper2 {
+  width: 100%;
+  max-width: 618px;
+  margin: 0 auto;
+}
+
+.burger {
+  display: none;
+}
+
+/* dorpdown */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.dropdown-content a {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 12px 16px;
+  color: white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.dropdown-content a:hover {
+  color: #AEFCFF;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* dorpdown */
+
+/* nav */
+
+nav {
+	width: 100%;
+	height: 70px;
+	background:  linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  margin-top: -17px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 26px 20px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+nav li a:hover {
+  color: #AEFCFF;
+}
+
+/* nav */
+
+/* logo */
+
+li:first-child {
+	margin-right: auto;
+  margin-top: -8px;
+
+}
+
+/* logo */
+
+/* reserva*/
+
+#reserva {
+  height: 70px;
+  width: 850px;
+  margin: 65px auto 0 auto;
+  background-color: white;
+  box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.2);
+}
+
+#reserva .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#reserva img {
+  width: 24px;
+  height: 24px;
+}
+
+#reserva .people {
+  width: 25px;
+  height: 24px;
+  margin-left: 40px;
+}
+
+#reserva input[type=text] {
+  border: none;
+  width: 80%;
+  padding-left: 10px;
+}
+
+#reserva input[type=date] {
+  border: none;
+  margin-right: 20px;
+  padding-left: 10px;
+  color: gray;
+}
+
+#reserva button {
+ width: 210px;
+ height: 70px;
+ margin-right: -1px;
+  border: none;
+  background: linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#reserva button:hover {
+  background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+/* reserva */
+
+/* form1 */
+
+#form1 {
+  margin-top: 5%;
+}
+
+#form1 h3 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: #3D3D3D;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+#form1 input[type=text] {
+  border: 1px solid #C5C5C5;
+  width: 90%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#form1 input[type=email] {
+  border: 1px solid #C5C5C5;
+  width: 90%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#form1 input[type=number] {
+  border: 1px solid #C5C5C5;
+  width: 90%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* form1 */
+
+/* form2 */
+
+#form2 {
+  margin-top: 3%;
+}
+
+#form2 .credit {
+  display: flex;
+}
+
+.credit img {
+  width: 90px;
+  height: 21px;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+#form2 h3 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: #3D3D3D;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+#form2 h4 {
+  font-size: 1.25em;
+  font-weight: 400;
+  color: #59A8F4;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+#form2 input[type=text] {
+  border: 1px solid #C5C5C5;
+  width: 90%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#form2 input[type=number] {
+  border: 1px solid #C5C5C5;
+  width: 90%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* form2 */
+
+/* form3 */
+
+#form3 {
+  margin-top: 3%;
+}
+
+#form3 h3 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 2.2em;
+  font-weight: 400;
+  color: #3D3D3D;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+#form3 textarea {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #C5C5C5;
+  width: 90%;
+  margin-bottom: 1.5rem;
+}
+
+#form3 input[type=checkbox] {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  margin-right: 10px;
+}
+
+#form3 .box1 {
+  color: #7E7E7E;
+  font-size: 1em;
+}
+
+#form3 button {
+   width: 170px;
+   height: 45px;
+    border: none;
+    background: linear-gradient(45deg, #56ccf2 0%,#2f80ed 100%);
+    color: white;
+    font-size: 0.88rem;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 12px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+#form3 button:hover {
+  background:  linear-gradient(45deg, #2f80ed 0%, #56ccf2 100%);
+}
+
+/* form3 */
+
+/* footer*/
+
+#footer {
+  height: 100px;
+  margin-top: 3rem;
+}
+
+#footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .logo-footer {
+  margin-top: 2.7%;
+}
+
+#footer .list-footer {
+  margin-top: 2.5%;
+}
+
+#footer .rrss-footer {
+  margin-top: 3.4%;
+}
+
+#footer .list-footer li {
+    list-style: none;
+}
+
+#footer .list-footer li a {
+	color: #7E7E7E;
+	text-decoration: none;
+	padding: 0 20px;
+}
+
+/* footer */
+
+/* Comenzamos con el @media
+1060px*/
+
+@media only screen and (max-width: 1060px){
+
+  .wrapper {
+    width: 90%;
+  }
+
+  #reserva {
+    display: none;
+  }
+
+  #footer .logo-footer {
+    display: none;
+  }
+
+  #footer .rrss-footer {
+    display: none;
+  }
+
+  #footer .wrapper {
+    display: block;
+  }
+
+  #footer .list-footer li {
+      text-align: center;
+      margin-top: 1px;
+  }
+
+  #footer {
+    height: 10%;
+  }
+}
+
+/* Comenzamos con el @media
+1060px*/
+
+/* @media 850px*/
+
+@media only screen and (max-width: 850px){
+
+  .burger {
+    width: 30px;
+    height: auto;
+    display: block;
+    padding-right: 10px;
+    padding-top: 37px;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .wrapper2 {
+    width: 90%;
+    max-width: 1100px;
+  }
+
+  li:first-child {
+  	margin-right: auto;
+    margin-left: -50px;
+  }
+
+  #form2 .credit {
+    display: block;
+  }
+
+}
+
+/* @media 850px*/
